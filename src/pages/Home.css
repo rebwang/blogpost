@@ -1,0 +1,30 @@
+.home-page {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #4267B2;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  
+  .controls input,
+  .controls select {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f6f7;
+  }
+  
