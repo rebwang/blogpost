@@ -4,7 +4,6 @@ import CreatePost from './pages/CreatePost';
 import PostPage from './pages/PostPage'; // 👈 Keep this as the page wrapper
 import Navbar from './components/Navbar';
 import EditPost from './pages/EditPost';
-import './index.css';
 
 export default function App() {
   return (

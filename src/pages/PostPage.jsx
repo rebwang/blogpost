@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { supabase } from "../supabaseClient";
 import PostFullView from "../components/PostFullView"; // NEW
-import "./PostPage.css";
+// import "./PostPage.css";
 
 const PostPage = () => {
   const { id } = useParams();

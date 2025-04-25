@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
 import PostCard from '../components/PostCard';
-import './Home.css'; // Optional: for spacing or custom styles
+// import './Home.css'; // Optional: for spacing or custom styles
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
